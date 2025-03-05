@@ -1,6 +1,55 @@
-# Getting Started with Create React App
+# Invoice Application
+
+A React-based invoice management application that allows users to create, view, and edit invoices with automatic calculations for discounts, taxes, and total prices.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Features
+
+- **Dynamic Invoice Form**: Create invoices with automatic calculations
+  - Quantity and Price inputs with automatic subtotal calculation
+  - Discount percentage with automatic discount amount calculation
+  - Tax percentage with automatic tax amount calculation
+  - Automatic total price calculation based on all inputs
+
+- **Invoice Management**
+  - View all created invoices in a table format
+  - Edit existing invoices with pre-filled form
+  - Real-time calculation updates as you type
+
+- **Responsive Design**
+  - Grid-based layout that adapts to different screen sizes
+  - Clean Material UI components for a modern look and feel
+
+## Technologies Used
+
+- React.js
+- Material UI for styling and components
+- JavaScript ES6+ features
+
+## Usage
+
+### Creating an Invoice
+
+1. Fill in the quantity and price fields
+2. Add discount percentage if applicable
+3. Add tax percentage if applicable
+4. Review the automatically calculated fields (discount amount, tax amount, total price)
+5. Click "Create Invoice" to add it to the table
+
+### Editing an Invoice
+
+1. Find the invoice you want to edit in the table
+2. Click the "Edit" button
+3. The form will be populated with the invoice data
+4. Make your changes
+5. Click "Update Invoice" to save your changes
+
+## Project Structure
+
+- `src/App.js`: Main application component with form and table logic
+- `public/index.html`: HTML entry point
+- `package.json`: Project dependencies and scripts
 
 ## Available Scripts
 
